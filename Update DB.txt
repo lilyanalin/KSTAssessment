@@ -1,0 +1,26 @@
+Penambahan table pada DB:
+
+Transaction
+------------------------
+ID 		integer
+AccountID 	integer
+TransactionDate	date
+TotalAmount	double
+Discount	smallint
+
+
+TransactionDetail
+------------------------
+ID		integer
+TransactionID	integer
+MovieID		integer
+Qty		integer
+Price		double
+Subtotal	double
+
+
+AccountCompany
+------------------------
+ID		integer
+AccountID	integer
+CompanyID	integer
